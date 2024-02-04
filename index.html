@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="UTF-8" />
+        <title>Das Essen</title>
+        <style>
+            /* Write your CSS Code here 
+            1) Give a watermark
+            2) create a pro- webpage for a restaurant
+            3) use positioning, borders, margins, combination of selectors
+            */
+            html{
+                background-color: #9A3B3B;
+            }
+            h1{
+                text-align: center;
+                font-family: Carattere;
+                color: #917236;
+                padding-bottom: 0%;
+                margin-bottom: 0%;
+                position:fixed;
+                left: 46%;
+                z-index: 2;
+                font-size: 50pt;
+            }
+            #main > p
+            {
+                text-align: center;
+                color: rgb(164, 160, 112);
+                font-family: 'Caramel', cursive;
+                font-size: larger;
+                padding: 0%;
+                margin: 0%;
+                position: fixed;
+                top:120px;
+                left: 43%;
+                z-index: 2;
+                font-size: 30pt;
+            }
+            
+            .story{
+                margin-left: 10px;
+                border: 5px solid #923de8  ;
+                height:590px;
+                width: 490px;
+                position:relative;
+                top: 200px;
+                
+                display:flex;
+                flex-direction: column;
+                
+
+            }
+            .story h2{
+                font-family: 'Exo 2';
+                color: #917236;
+            }
+            .story p{
+                font-family:caramel;
+                font-weight: 500;
+                font-size: 20pt;
+                margin-bottom: 0%;
+            }
+            .story img{
+                height:50%;
+                width: 50%;
+                margin: 0% 25%;
+            }
+
+            .loc{
+                display:flex;
+                flex-direction: column;
+                border: 5px solid #923de8  ;
+                width:auto;
+                margin-top: 199px;
+                margin-left:400px;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            .loc h2{
+               font-family: 'Exo 2';
+               color: #917236;
+            }
+
+            .loc li{
+                font-size: 18pt;
+                font-family: caveat;
+            }
+
+
+            .loc img{
+                height:500px;
+                width: 450px;
+            }
+
+
+        </style>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Caramel&family=Carattere&family=Caveat&family=Exo+2:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <h1>Das Essen</h1>
+            <p>Serving the finest, since 1868</p>
+            <hr />
+            <div class="story">
+             <h2>Our Story</h2>
+              <img src="./assets/chef-2.jpeg" alt="founder" />
+              <p>lorem ipsum.Bacon ipsum dolor amet ham turkey flank spare ribs. Prosciutto cupim strip steak turducken. Pork loin pancetta porchetta brisket tenderloin buffalo t-bone ham hock spare ribs. Jerky drumstick ground round ham hock meatloaf frankfurter pork loin, pork t-bone chislic pastrami. Buffalo turducken beef, rump ball tip tail spare ribs sausage porchetta bresaola jerky doner shank frankfurter.</p>
+              </div>
+            <div class="loc">
+              <h2>locations</h2> 
+              <img src="./assets/Das Essen.jpeg" alt="das essen,milan" />  
+              
+              <ol>
+                <li><a href="https://www.google.com/maps/@18.9209939,72.8331626,3a,75y,354.21h,124t/data=!3m7!1e1!3m5!1sbR7h5g5CaDULFBTYc9M5IA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DbR7h5g5CaDULFBTYc9M5IA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D282.2046%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu">Paris</a></li>
+                <li><a href="https://www.google.com/maps/place/Grand+Milan/@45.4845342,9.2459555,3a,75y,76.4h,96.56t/data=!3m6!1e1!3m4!1sONtq0YqJoQK4RmSzSnEY5w!2e0!7i16384!8i8192!4m16!1m9!4m8!1m0!1m6!1m2!1s0x4786c7ba2276b96b:0x26eafc105e2494a4!2sVia+Privata+Gaetano+Sbodio,+30,+20134+Milano+MI,+Italy!2m2!1d9.2460752!2d45.4845594!3m5!1s0x4786c7ba2276b96b:0x26eafc105e2494a4!8m2!3d45.4845594!4d9.2460752!16s%2Fg%2F11p5n64f6z?entry=ttu">Milan</a></li>
+                <li><a href="https://www.google.com/maps/@45.4859906,9.2000827,3a,75y,29.42h,111.53t/data=!3m7!1e1!3m5!1s-UGMM1T9q9tNAPBVEDU6XQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-UGMM1T9q9tNAPBVEDU6XQ%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D331.0611%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu">Lindshire</a></li>
+                <li><a href="https://www.google.com/maps/place/Sola/@48.851304,2.3479338,3a,77.1y,202.81h,99t/data=!3m6!1e1!3m4!1seylbg8tauXxAbsby4IMR0g!2e0!7i16384!8i8192!4m14!1m7!3m6!1s0x47e671e1484a7667:0xf85399c647f1ae25!2sSola!8m2!3d48.851605!4d2.3483134!16s%2Fg%2F1wyc3n8p!3m5!1s0x47e671e1484a7667:0xf85399c647f1ae25!8m2!3d48.851605!4d2.3483134!16s%2Fg%2F1wyc3n8p?entry=ttu">New York</a></li>
+              </ol>
+            </div>
+        </div>
+        <div>
+            <h2><a href="./public/reservations.html">Check Reservations</a></h2>
+
+        </div>
+    </body>
+</html>
